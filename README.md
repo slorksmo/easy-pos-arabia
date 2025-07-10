@@ -21,7 +21,7 @@
 
 1. **استنساخ المستودع:**
    ```sh
-   git clonehttps://github.com/slorksmo/easy-pos-arabia.git
+   git clone https://github.com/slorksmo/easy-pos-arabia.git
    cd easy-pos-arabia
    ```
 
