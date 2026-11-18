@@ -1,46 +1,30 @@
-# easy-pos-arabia
+# Easy POS Arabia
 
-نظام نقاط بيع (POS) عصري وسهل الاستخدام، مبني باستخدام تقنيات الويب الحديثة لتسهيل إدارة المبيعات، الفواتير، التقارير، والمخزون.
+**نظام نقاط بيع عربي للمتاجر الصغيرة**
 
-## الميزات
+يدير Easy POS Arabia المنتجات والمخزون وفواتير المبيعات والمشتريات والتقارير من واجهة ويب متجاوبة.
 
-- إدارة المنتجات والفئات
-- إنشاء و إدارة فواتير المبيعات والمشتريات
-- تقارير مفصلة عن العمليات
-- واجهة مستخدم متجاوبة وسهلة الاستخدام
+*An Arabic point-of-sale web app for small retailers, with product and inventory management, sales and purchase invoices, and transaction reporting.*
 
-## التقنيات المستخدمة
+## يوم عمل في المتجر
 
-- [Vite](https://vitejs.dev/) — أداة بناء وتطوير سريعة
-- [React](https://react.dev/) — مكتبة لبناء واجهات المستخدم
-- [TypeScript](https://www.typescriptlang.org/) — لغة برمجة قوية لأنظمة جافاسكريبت
-- [Tailwind CSS](https://tailwindcss.com/) — إطار عمل لتصميم الواجهات
-- [shadcn/ui](https://ui.shadcn.com/) — مكتبة مكونات جاهزة
+أضف المنتجات ونظّمها في فئات قبل بدء البيع. عند تسجيل عملية بيع، اختَر المنتجات وأنشئ فاتورة مبيعات. سجّل فواتير الشراء عند توريد البضاعة، وارجع إلى التقارير لمراجعة العمليات.
 
-## بدء الاستخدام
+## التشغيل محليًا
 
-1. **استنساخ المستودع:**
-   ```sh
-   git clone https://github.com/slorksmo/easy-pos-arabia.git
-   cd easy-pos-arabia
-   ```
+```bash
+git clone https://github.com/slorksmo/easy-pos-arabia.git
+cd easy-pos-arabia
+npm install
+npm run dev
+```
 
-2. **تثبيت الاعتماديات:**
-   ```sh
-   npm install
-   ```
+افتح الرابط الذي يطبعه Vite في الطرفية لمعاينة التطبيق.
 
-3. **تشغيل الخادم التطويري:**
-   ```sh
-   npm run dev
-   ```
+## التقنيات
 
-4. افتح المتصفح على [http://localhost:5173](http://localhost:5173) لمعاينة التطبيق.
+[React](https://react.dev/) و[TypeScript](https://www.typescriptlang.org/) و[Vite](https://vite.dev/) و[Tailwind CSS](https://tailwindcss.com/) و[shadcn/ui](https://ui.shadcn.com/).
 
-## المساهمة
+## المساهمة والترخيص
 
-نرحب بجميع المساهمات! الرجاء فتح issues أو pull requests لأي تحسينات أو إصلاحات.
-
-## الترخيص
-
-[MIT](LICENSE)
+للإبلاغ عن مشكلة أو اقتراح تحسين، افتح [Issue](https://github.com/slorksmo/easy-pos-arabia/issues). المشروع مرخّص بموجب [MIT](LICENSE).
